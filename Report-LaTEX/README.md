@@ -1,4 +1,4 @@
-# Generating non-redundant Association Rules based on Closed Frequent Itemsets
+# Report - Generating non-redundant Association Rules based on Closed Frequent Itemsets
 
 ---
 
