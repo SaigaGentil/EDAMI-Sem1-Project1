@@ -1,5 +1,41 @@
 #!/bin/bash
 
+################################################################################
+# Script Name: compile_report.sh
+# Description: This script compiles the Report in LaTEX.
+# Version: 1.0
+# Author: Bruno Axel Kamere
+# Created Date: 2023-05-15
+# Last Modified: 2023-05-16
+# License: [Specify the license under which this script is distributed]
+#
+# Usage:
+#   - Provide examples of how to use the script.
+#   - Include any necessary command-line options or arguments.
+#   - Specify any prerequisites or dependencies.
+#
+# Dependencies:
+#   - List any external dependencies required by the script (e.g., software packages).
+#   - Include specific versions if necessary.
+#
+# Notes:
+#   - Add any additional notes or important information about the script.
+#   - Mention any known issues or limitations.
+#   - Include any troubleshooting tips, if applicable.
+#
+# References:
+#   - List any references or resources that were used to develop the script.
+#   - Include links or citations for easy access.
+# ===============================================
+# Changelog:
+# ===============================================
+# Version 1.0 [2023-05-15] [Bruno Axel Kamere]
+# - Initial file.
+#
+####################################################################
+
+############ Code starts here... ############
+
 compile="compile";
 clean="clean";
 
@@ -83,3 +119,5 @@ if test -z "$3"
 then
     exit
 fi
+
+############ Code ends here... ############
