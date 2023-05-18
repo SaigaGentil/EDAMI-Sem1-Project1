@@ -32,7 +32,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ProvidesClass{config_report}[2023/05/15 Config Report Class]
+\ProvidesClass{config/classes/config_report}
 
 \LoadClass[
     12pt,
@@ -45,8 +45,8 @@
 
 \RequirePackage{kvoptions}
 \SetupKeyvalOptions{
-    family = config_report,
-    prefix = config_report@
+    family = config/classes/config_report.cls,
+    prefix = config
 }
 
 \DeclareStringOption[2.5cm]{left}
@@ -387,11 +387,11 @@
 %--------------------------------
 % Cover Page - Macros
 %--------------------------------
-\newcommand{\EngineerThesis}{
-    \newcommand{\ThesisType}{Engineer}
+\newcommand{\Report}{
+    \newcommand{\DocumentType}{ProjectReport}
 }
 \newcommand{\MasterThesis}{
-    \newcommand{\ThesisType}{Master}
+    \newcommand{\DocumentType}{Master}
 }
 \newcommand{\institute}[1]{
     \newcommand{\@institute}{#1}
@@ -408,8 +408,8 @@
 \newcommand{\studentnumber}[1]{
     \newcommand{\@studentnumber}{#1}
 }
-\newcommand{\seminarlecturer}[1]{
-    \newcommand{\@seminarlecturer}{#1}
+\newcommand{\professor}[1]{
+    \newcommand{\@professor}{#1}
 }
 \newcommand{\supervisor}[1]{
     \newcommand{\@supervisor}{#1}
@@ -419,6 +419,29 @@
 }
 \newcommand{\universityname}[1]{
     \newcommand{\@universityname}{#1}
+}
+
+%--------------------------------
+% Strona tytułowa - makra
+%--------------------------------
+
+\newcommand{\reportDescription}[1]{
+    \newcommand{\@reportDescription}{#1}
+}
+\newcommand{\instytut}[1]{
+    \newcommand{\@instytut}{#1}
+}
+\newcommand{\przedmiot}[1]{
+    \newcommand{\@przedmiot}{#1}
+}
+\newcommand{\specjalnosc}[1]{
+    \newcommand{\@specjalnosc}{#1}
+}
+\newcommand{\album}[1]{
+    \newcommand{\@album}{#1}
+}
+\newcommand{\prowadzacy}[1]{
+    \newcommand{\@prowadzacy}{#1}
 }
 
 %--------------------------------
@@ -432,106 +455,57 @@
     \pagenumbering{gobble}
 
     \begin{center}
-        \large
-        \LARGE
-        \textbf
-        \@universityname \\
-        \hfill \break
-        \hfill \break
         %\sffamily
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            \includegraphics[width=\textwidth]{config/header.png} \\
+            \includegraphics[width=\textwidth ]{config/images//header.png} \\
         \fi
         \ifnum \pdf@strcmp{\@lang}{english} = 0
-            \includegraphics[scale=0.5]{config/img/wsg_logo_c7_small.png} \\
+            \includegraphics[width=\textwidth]{config/images/header-eng.png} \\
         \fi
         \hfill \break
+        \ifnum \pdf@strcmp{\@lang}{polish} = 0
+           {\large course \\ \@course} \\
+        \fi
+        \ifnum \pdf@strcmp{\@lang}{english} = 0
+            {\large Course \\ \@course} \\
+        \fi
         \hfill \break
-        \textbf
-        \@author \\
-        \hfill \break
+
+        \includegraphics[width=0.5\textwidth]{config/images/logopw.png} \\
         \hfill \break
         \large
-        \LARGE
-        \textbf
         \@title \\
+        \ifnum \pdf@strcmp{\@lang}{polish} = 0
+            {\normalsize \@reportDescription} \\
+        \fi
+        \ifnum \pdf@strcmp{\@lang}{english} = 0
+            {\normalsize \@reportDescription} \\
+        \fi
         \hfill \break
-        \hfill \break
+        \LARGE
+        \@author \\
         \normalsize
-        \ifnum \pdf@strcmp{\ThesisType}{Engineer} = 0
-            \ifnum \pdf@strcmp{\@lang}{polish} = 0
-                \includegraphics[width=\textwidth]{config/title-inz.png} \\
-            \fi
-            \ifnum \pdf@strcmp{\@lang}{english} = 0
-                \includegraphics[width=\textwidth]{config/img/bachelors-thesis-eng.png} \\
-            \fi
-        \fi
-        \ifnum \pdf@strcmp{\ThesisType}{Master} = 0
-            \ifnum \pdf@strcmp{\@lang}{polish} = 0
-                \includegraphics[width=\textwidth]{config/title-mgr.png} \\
-            \fi
-            \ifnum \pdf@strcmp{\@lang}{english} = 0
-                \includegraphics[width=\textwidth]{config/title-mgr-eng.png} \\
-            \fi
-        \fi
-        %\hfill \break
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            Course: \textbf\@course \\
+            Numer~albumu \@studentnumber \\
         \fi
         \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Course: \textbf\@course \\
-        \fi
-        \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            w~specjalności \textbf\@field \\
-        \fi
-        \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Specialty: \textbf\@field \\
+            Student Record Book Number \@studentnumber \\
         \fi
         \hfill \break
-    \end{center}
-
-    \begin{flushright}
-        \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            Seminar conducted by \\
-        \fi
-        \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Seminar conducted by \\
-        \fi
-        \textbf
-        \@seminarlecturer \\
-        \vfill
-
-        \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            supervisor \\
-        \fi
-        \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Thesis supervisor \\
-        \fi
-        \textbf
-        \@supervisor \\
-        \vfill
         \hfill \break
-    \end{flushright}
-
-    \begin{flushleft}
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            Student's transcript number \\
+            prowadzący \\
         \fi
         \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Student's transcript number \\
+            Supervisor \\
         \fi
-        \textbf
-        \@studentnumber \\
+        \@professor \\
         \vfill
-        \hfill \break
-    \end{flushleft}
-
-    \begin{center}
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
             WARSZAWA \@date
         \fi
         \ifnum \pdf@strcmp{\@lang}{english} = 0
-            Bydgoszcz, Poland \@date
+            Warsaw, Poland \@date
         \fi
     \end{center}
 
