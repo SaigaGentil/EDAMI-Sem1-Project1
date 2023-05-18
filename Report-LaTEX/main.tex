@@ -1,0 +1,204 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% File Name: main.tex
+% Description: <ADD Content>
+% Version: 1.0
+% Author: Bruno Axel Kamere
+% Created Date: 2023-05-18
+% Last Modified: 2023-05-18
+% License: [Specify the license under which this script is distributed]
+%
+% Usage:
+%   - Provide examples of how to use the script.
+%   - Include any necessary command-line options or arguments.
+%   - Specify any prerequisites or dependencies.
+%
+% Dependencies:
+%   - List any external dependencies required by the script (e.g., software packages).
+%   - Include specific versions if necessary.
+%
+% Notes:
+%   - Add any additional notes or important information about the script.
+%   - Mention any known issues or limitations.
+%   - Include any troubleshooting tips, if applicable.
+%
+% References:
+%   - List any references or resources that were used to develop the script.
+%   - Include links or citations for easy access.
+% ===============================================
+% Changelog:
+% ===============================================
+% Version 1.0 [2023-05-15] [Bruno Axel Kamere]
+% - Initial file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+    left=2.5cm,         % Sadly, generic margin parameter
+    right=2.5cm,        % doesnt't work, as it is
+    top=2.5cm,          % superseded by more specific
+    bottom=3cm,         % left...bottom parameters.
+    bindingoffset=6mm,  % Optional binding offset.
+    nohyphenation=false % You may turn off hyphenation, if don't like.
+]{config/classes/config_report}
+
+\raggedbottom % Don't stretch text.
+%--------------------------------
+% Use English language (Other languages to be added in the future)
+%--------------------------------
+\langeng
+
+%--------------------------------
+% Image path
+%--------------------------------
+\graphicspath{
+    {images/}
+}
+
+%--------------------------------
+% Reference the bibliography file
+%--------------------------------
+\addbibresource{bibliography.bib}
+
+
+%%%---------------------------------------------------------------%%%
+%%% Start main document                                           %%%
+%%%---------------------------------------------------------------%%%
+\begin{document}
+
+\Report
+\universityname{Warsaw University of Technology}
+\institute{Faculty of Electronics and Information Technology}
+% \field{Computer Science and Networks}
+\course{Computer Science and Networks}
+\title{Project Report}
+\reportDescription{
+    Generating non-redundant Association Rules based on Closed Frequent Itemsets.
+}
+\author{Bruno Axel Kamere}
+\studentnumber{330749}
+\professor {Robert Bembenik, PhD,}
+% \supervisor{Ocetkiewicz Tomasz, mgr inż.}
+\date{\the\year}
+\maketitle
+\frontmatter
+
+% %--------------------------------
+% % Dedication
+% %--------------------------------
+% \include{...}
+
+% %--------------------------------
+% % Acknowledgements
+% %--------------------------------
+% \include{...}
+
+% %--------------------------------
+% % Abstract
+% %--------------------------------
+% \include{...}
+
+%--------------------------------
+% Declaration of author's will
+%--------------------------------
+\newpage
+\pagestyle{plain}
+% \makeauthorship
+
+%--------------------------------
+% Table of Contents
+%--------------------------------
+% \cleardoublepage
+\clearpage
+\tableofcontents
+
+
+%--------------------------------
+% List of Figures
+%--------------------------------
+% \cleardoublepage
+\clearpage
+%  Enable after adding figures
+% \listoffigures
+
+%--------------------------------
+% List of Tables
+%--------------------------------
+% \cleardoublepage
+\clearpage
+% Enable after adding tables
+% \listoftables
+
+%--------------------------------
+% List of Listings
+%--------------------------------
+% \cleardoublepage
+\newpage
+% \listoflistings
+
+%--------------------------------
+% Nomenclature
+%--------------------------------
+
+% Enable after adding nomenclature entries
+% \printnomenclature
+
+\mainmatter
+%--------------------------------
+% Chapters - Introduction
+%--------------------------------
+\cleardoublepage
+\pagestyle{headings}
+\include{10.Introduction/introduction.tex}
+
+%--------------------------------
+% Chapters - Solution Description
+%--------------------------------
+\cleardoublepage
+\include{20.Solution Description/solution_description.tex}
+
+%--------------------------------
+% Chapters - Implementation Description
+%--------------------------------
+\cleardoublepage
+\include{30.Implementation Description/implementation_description.tex}
+
+%--------------------------------
+% Chapters - User Manual
+%--------------------------------
+\cleardoublepage
+\include{40.User's Manual/user_manual.tex}
+
+%--------------------------------
+% Chapters - Dataset Description
+%--------------------------------
+\include{50.Dataset Description/dataset_description.tex}
+
+%--------------------------------
+% Chapters - Results
+%--------------------------------
+\include{60.Results/results.tex}
+
+%--------------------------------
+% Chapters - Conclusion
+%--------------------------------
+\include{70.Conclusion/conclusion.tex}
+
+\backmatter
+%--------------------------------
+% Chapters - Bibliography
+%--------------------------------
+\cleardoublepage
+\pagestyle{plain}
+\printbibliography[
+    title=References,
+    heading=bibintoc
+]
+
+%--------------------------------
+% Chapters - Appendix
+%--------------------------------
+
+\end{document}
+%%%---------------------------------------------------------------%%%
+%%% End main document                                             %%%
+%%%---------------------------------------------------------------%%%
