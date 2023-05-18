@@ -102,14 +102,14 @@ if [ $1 = $clean ]; then
     exit
     elif [ $1 = $compile ]; then
     echo "Compiling the Report...please wait...!"
-    pdflatex -interaction=nonstopmode $filename.tex
+    pdflatex -shell-escape -interaction=nonstopmode $filename.tex
     bibtex $filename.aux
     makeindex $filename.aux
     makeindex $filename.idx
     makeindex $filename.nlo -s nomencl.ist -o $filename.nls
-    pdflatex -interaction=nonstopmode $filename.tex
+    pdflatex -shell-escape -interaction=nonstopmode $filename.tex
     makeindex $filename.nlo -s nomencl.ist -o $filename.nls
-    pdflatex -interaction=nonstopmode $filename.tex
+    pdflatex -shell-escape -interaction=nonstopmode $filename.tex
     echo "Success!"
     exit
 fi
