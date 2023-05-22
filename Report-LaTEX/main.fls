@@ -1320,6 +1320,27 @@ INPUT main.aex
 INPUT ./main.aux
 INPUT main.aux
 INPUT main.aux
+INPUT ./10.Introduction/introduction.aux
+INPUT 10.Introduction/introduction.aux
+INPUT 10.Introduction/introduction.aux
+INPUT ./20.Solution Description/solution_description.aux
+INPUT 20.Solution Description/solution_description.aux
+INPUT 20.Solution Description/solution_description.aux
+INPUT ./30.Implementation Description/implementation_description.aux
+INPUT 30.Implementation Description/implementation_description.aux
+INPUT 30.Implementation Description/implementation_description.aux
+INPUT ./40.User's Manual/user_manual.aux
+INPUT 40.User's Manual/user_manual.aux
+INPUT 40.User's Manual/user_manual.aux
+INPUT ./50.Dataset Description/dataset_description.aux
+INPUT 50.Dataset Description/dataset_description.aux
+INPUT 50.Dataset Description/dataset_description.aux
+INPUT ./60.Results/results.aux
+INPUT 60.Results/results.aux
+INPUT 60.Results/results.aux
+INPUT ./70.Conclusion/conclusion.aux
+INPUT 70.Conclusion/conclusion.aux
+INPUT 70.Conclusion/conclusion.aux
 OUTPUT main.aux
 INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutm.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutm.fd
@@ -1432,6 +1453,182 @@ INPUT ./main.out
 INPUT main.out
 INPUT ./main.out
 INPUT main.out
+OUTPUT main.pdf
 INPUT ./main.out
 INPUT ./main.out
 OUTPUT main.out
+INPUT ./config/images/WEiTI-znak-ENG-CMYK.png
+INPUT ./config/images/WEiTI-znak-ENG-CMYK.png
+INPUT config/images/WEiTI-znak-ENG-CMYK.png
+INPUT ./config/images/WEiTI-znak-ENG-CMYK.png
+INPUT ./config/images/WEiTI-znak-ENG-CMYK.png
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT ./config/images/logopw.png
+INPUT ./config/images/logopw.png
+INPUT config/images/logopw.png
+INPUT ./config/images/logopw.png
+INPUT ./config/images/logopw.png
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT ./main.toc
+INPUT main.toc
+INPUT main.toc
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msa.cfg
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-msb.cfg
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+OUTPUT main.toc
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT ./10.Introduction/introduction.tex
+OUTPUT 10.Introduction/introduction.aux
+INPUT ./10.Introduction/introduction.tex
+INPUT ./10.Introduction/introduction.tex
+INPUT ./10.Introduction/introduction.tex
+INPUT ./10.Introduction/introduction.tex
+INPUT 10.Introduction/introduction.tex
+INPUT ./10.Introduction/introduction.tex
+INPUT 10.Introduction/introduction.tex
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT ./20.Solution Description/solution_description.tex
+OUTPUT 20.Solution Description/solution_description.aux
+INPUT ./20.Solution Description/solution_description.tex
+INPUT ./20.Solution Description/solution_description.tex
+INPUT ./20.Solution Description/solution_description.tex
+INPUT ./20.Solution Description/solution_description.tex
+INPUT 20.Solution Description/solution_description.tex
+INPUT ./20.Solution Description/solution_description.tex
+INPUT 20.Solution Description/solution_description.tex
+INPUT ./30.Implementation Description/implementation_description.tex
+OUTPUT 30.Implementation Description/implementation_description.aux
+INPUT ./30.Implementation Description/implementation_description.tex
+INPUT ./30.Implementation Description/implementation_description.tex
+INPUT ./30.Implementation Description/implementation_description.tex
+INPUT ./30.Implementation Description/implementation_description.tex
+INPUT 30.Implementation Description/implementation_description.tex
+INPUT ./30.Implementation Description/implementation_description.tex
+INPUT 30.Implementation Description/implementation_description.tex
+INPUT ./40.User's Manual/user_manual.tex
+OUTPUT 40.User's Manual/user_manual.aux
+INPUT ./40.User's Manual/user_manual.tex
+INPUT ./40.User's Manual/user_manual.tex
+INPUT ./40.User's Manual/user_manual.tex
+INPUT ./40.User's Manual/user_manual.tex
+INPUT 40.User's Manual/user_manual.tex
+INPUT ./40.User's Manual/user_manual.tex
+INPUT 40.User's Manual/user_manual.tex
+INPUT ./50.Dataset Description/dataset_description.tex
+OUTPUT 50.Dataset Description/dataset_description.aux
+INPUT ./50.Dataset Description/dataset_description.tex
+INPUT ./50.Dataset Description/dataset_description.tex
+INPUT ./50.Dataset Description/dataset_description.tex
+INPUT ./50.Dataset Description/dataset_description.tex
+INPUT 50.Dataset Description/dataset_description.tex
+INPUT ./50.Dataset Description/dataset_description.tex
+INPUT 50.Dataset Description/dataset_description.tex
+INPUT ./60.Results/results.tex
+OUTPUT 60.Results/results.aux
+INPUT ./60.Results/results.tex
+INPUT ./60.Results/results.tex
+INPUT ./60.Results/results.tex
+INPUT ./60.Results/results.tex
+INPUT 60.Results/results.tex
+INPUT ./60.Results/results.tex
+INPUT 60.Results/results.tex
+INPUT ./70.Conclusion/conclusion.tex
+OUTPUT 70.Conclusion/conclusion.aux
+INPUT ./70.Conclusion/conclusion.tex
+INPUT ./70.Conclusion/conclusion.tex
+INPUT ./70.Conclusion/conclusion.tex
+INPUT ./70.Conclusion/conclusion.tex
+INPUT 70.Conclusion/conclusion.tex
+INPUT ./70.Conclusion/conclusion.tex
+INPUT 70.Conclusion/conclusion.tex
+INPUT main.aux
+INPUT ./10.Introduction/introduction.aux
+INPUT 10.Introduction/introduction.aux
+INPUT 10.Introduction/introduction.aux
+INPUT ./20.Solution Description/solution_description.aux
+INPUT 20.Solution Description/solution_description.aux
+INPUT 20.Solution Description/solution_description.aux
+INPUT ./30.Implementation Description/implementation_description.aux
+INPUT 30.Implementation Description/implementation_description.aux
+INPUT 30.Implementation Description/implementation_description.aux
+INPUT ./40.User's Manual/user_manual.aux
+INPUT 40.User's Manual/user_manual.aux
+INPUT 40.User's Manual/user_manual.aux
+INPUT ./50.Dataset Description/dataset_description.aux
+INPUT 50.Dataset Description/dataset_description.aux
+INPUT 50.Dataset Description/dataset_description.aux
+INPUT ./60.Results/results.aux
+INPUT 60.Results/results.aux
+INPUT 60.Results/results.aux
+INPUT ./70.Conclusion/conclusion.aux
+INPUT 70.Conclusion/conclusion.aux
+INPUT 70.Conclusion/conclusion.aux
+INPUT ./main.out
+INPUT ./main.out
+INPUT main.run.xml
+OUTPUT main.run.xml
+INPUT c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT c:/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
+INPUT c:/texlive/2022/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
