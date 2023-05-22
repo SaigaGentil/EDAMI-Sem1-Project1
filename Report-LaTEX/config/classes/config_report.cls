@@ -457,10 +457,10 @@
     \begin{center}
         %\sffamily
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
-            \includegraphics[width=\textwidth ]{config/images//header.png} \\
+            \includegraphics[width=\textwidth ]{config/images/header.png} \\
         \fi
         \ifnum \pdf@strcmp{\@lang}{english} = 0
-            \includegraphics[width=\textwidth]{config/images/header-eng.png} \\
+            \includegraphics[width=\textwidth]{config/images/WEiTI-znak-ENG-CMYK.png} \\
         \fi
         \hfill \break
         \ifnum \pdf@strcmp{\@lang}{polish} = 0
